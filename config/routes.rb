@@ -3,7 +3,7 @@ Rails.application.routes.draw do
 
   namespace :api do
     namespace :v1 do
-      match '/basic' => 'basic_math#index', via: :post
+      match '/basic' => 'basic#index', via: :post
     end
   end
 end
